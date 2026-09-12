@@ -8,6 +8,6 @@ class Solution {
             else if(numbers[a]+numbers[b]>target) b--;
             else a++;
         }
-        return new int[]{-1,-1};
+        return new int[2];
     }
 }
